@@ -137,6 +137,7 @@ open class SKPhotoBrowser: UIViewController {
 
         // toolbar
         toolbar.frame = frameForToolbarAtOrientation()
+        toolbar.isHidden = !SKPhotoBrowserOptions.displayToolbar
         
         // action
         actionView.updateFrame(frame: view.frame)

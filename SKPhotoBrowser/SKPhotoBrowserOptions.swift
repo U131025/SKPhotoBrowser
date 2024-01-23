@@ -9,6 +9,7 @@
 import UIKit
 
 public struct SKPhotoBrowserOptions {
+    public static var displayToolbar: Bool = false
     public static var displayStatusbar: Bool = false
     public static var displayCloseButton: Bool = true
     public static var displayDeleteButton: Bool = false
